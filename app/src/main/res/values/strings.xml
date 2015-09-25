@@ -15,4 +15,34 @@
     <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
     <string name="pref_location_default" translatable="false">Jaipur</string>
 
+    <!-- Label for the Units preference [CHAR LIMIT=30] -->
+    <string name="pref_units_label">Temperature Units</string>
+
+    <!-- Key name for storing Units in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_units_key" translatable="false">units</string>
+
+    <!-- Default unit type for Units preference [CHAR LIMIT=NONE] -->
+    <string name="pref_units_metric" translatable="false">Metric</string>
+
+    <!-- Unit type for Units preference [CHAR LIMIT=NONE] -->
+    <string name="pref_units_imperial" translatable="false">Imperial</string>
+
+    <string-array name="pref_units_values">
+        <item>
+            metric
+        </item>
+        <item>
+            imperial
+        </item>
+    </string-array>
+
+    <string-array name="pref_units_options">
+        <item>
+            Metric
+        </item>
+        <item>
+            Imperial
+        </item>
+    </string-array>
+
 </resources>
